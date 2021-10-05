@@ -7,3 +7,5 @@ let b = 10; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let sum = a + b;

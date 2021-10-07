@@ -1,5 +1,7 @@
 # Submitting Your Assignments
 
+## Save your files on your local computer
+
 ## Commit Your Changes to Git
 
 You will first need to commit your changes to your local machine. To do this in visual studio code:

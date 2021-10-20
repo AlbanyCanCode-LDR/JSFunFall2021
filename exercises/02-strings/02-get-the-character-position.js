@@ -19,3 +19,10 @@ let letter = "i"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let characterPosition = firstName.indexOf(letter);
+
+console.log(characterPosition);
+
+// this works because indexOf starts looking for the character reperesented by the variable "letter" beginning at index[0], when it finds the string
+// it notes the index position of that string and stores that value as in integer. This value can then be used for other functions.

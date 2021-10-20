@@ -17,3 +17,46 @@ let monthNum = "10"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let monthText;
+
+switch (monthNum) {
+  case "01": //"01" ect..
+    monthText = "January";
+    break;
+  case "02": //"01" ect..
+    monthText = "February";
+    break;
+  case "03": //"01" ect..
+    monthText = "March";
+    break;
+  case "04": //"01" ect..
+    monthText = "April";
+    break;
+  case "05": //"01" ect..
+    monthText = "May";
+    break;
+  case "06": //"01" ect..
+    monthText = "June";
+    break;
+  case "07": //"01" ect..
+    monthText = "July";
+    break;
+  case "08": //"01" ect..
+    monthText = "August";
+    break;
+  case "09": //"01" ect..
+    monthText = "September";
+    break;
+  case "10": //"01" ect..
+    monthText = "October";
+    break;
+  case "11": //"01" ect..
+    monthText = "November";
+    break;
+  case "12": //"01" ect..
+    monthText = "December";
+    break;
+  default:
+    monthText = null;
+}

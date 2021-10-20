@@ -16,3 +16,9 @@ let newLastName = "Washington"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+console.log(fullName);
+//this substring starts at the beginning index and cuts everything after the index value of "Full Name" at the first occurrence of quotes
+fullName = fullName.substring(0, fullName.indexOf(" ")) + " " + newLastName;
+
+console.log(fullName);

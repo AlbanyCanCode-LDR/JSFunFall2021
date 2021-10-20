@@ -8,3 +8,21 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let isEven;
+let testIntiger = 4;
+
+let isEvenOrOdd = (intiger) => {
+  
+  if (intiger % 2 == 0) {
+   return isEven = "even";
+  }
+  else{
+    return isEven = "odd";
+  }
+};
+
+
+
+console.log(isEvenOrOdd(testIntiger));
+

@@ -11,3 +11,23 @@ let fullName = "John smith"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+//start at finding the index of the space character +1 to represent the index value of the first letter of the last name
+
+//use .toUppercase at the index value that consistently is the first letter of the last name by using get character by position notatiion
+
+// fullName = fullName[fullName.indexOf(" ") + 1].toLocaleUpperCase();
+
+// console.log(fullName);
+
+//use multiple subfullNameings to peice it back together
+
+
+fullName = fullName.substring(0,fullName.indexOf(" ")) + " " + fullName[fullName.indexOf(" ") + 1].toLocaleUpperCase() + fullName.substring(fullName.indexOf(" ") + 2);
+
+console.log(fullName)
+
+
+
+
+

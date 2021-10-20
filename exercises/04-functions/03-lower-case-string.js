@@ -10,3 +10,13 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let TEST = "TEST";
+
+const lowerCaseString = (string) => {
+  let testData = string;
+  testData = testData.toLowerCase();
+  return "" + testData;
+};
+
+console.log(lowerCaseString(TEST));

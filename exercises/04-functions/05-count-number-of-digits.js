@@ -6,3 +6,13 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let TEST = 22444;
+
+const countNumberOfDigits = (digits) => {
+
+return digits.toString().length;
+
+}
+
+console.log(countNumberOfDigits(TEST));

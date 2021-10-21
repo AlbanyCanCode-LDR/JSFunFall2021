@@ -11,3 +11,5 @@
 const timesFive = (number) => {
   return number * 5;
 };
+
+console.log(timesFive(5));

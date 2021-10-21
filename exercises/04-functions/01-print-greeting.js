@@ -10,3 +10,5 @@
 const printGreeting = (name) => {
   return `Hello ${name}!`;
 };
+
+console.log(printGreeting("John"));

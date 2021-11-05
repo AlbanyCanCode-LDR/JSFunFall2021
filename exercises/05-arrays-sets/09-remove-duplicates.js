@@ -9,6 +9,10 @@
 
 const removeDuplicates = (numbers) => {
   // WRITE YOUR ANSWER HERE
+  const set = new Set(numbers);
+  return [...set];
+
+  //source : https://levelup.gitconnected.com/7-ways-to-remove-duplicates-from-array-in-javascript-cea4144caf31
 };
 
 // IGNORE THIS BELOW. It is for the tests.

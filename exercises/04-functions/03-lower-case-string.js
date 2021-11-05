@@ -14,9 +14,10 @@
 let TEST = "TEST";
 
 const lowerCaseString = (string) => {
-  let testData = string;
-  testData = testData.toLowerCase();
-  return "" + testData;
+  if (typeof string === "string") {
+    return string.toLowerCase();
+  } else {
+  }
 };
 
 console.log(lowerCaseString(TEST));

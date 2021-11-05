@@ -16,9 +16,22 @@
  * // <a href="http://www.omfgdogs.com">Dogs</a><a href="https://giphy.com/search/kitten">Kittens</a><a href="https://hamster.dance/hamsterdance/">Hamster Dance</a>
  */
 
+let testLinks = {
+  Dogs: "http://www.omfgdogs.com",
+  Kittens: "https://giphy.com/search/kitten",
+  "Hamster Dance": "https://hamster.dance/hamsterdance/",
+};
+
 const generateLinks = (links) => {
   // WRITE YOUR ANSWER HERE
+  let html = "";
+  for (const key in links) {
+    html = `${html} <a href="${links[key]}">${key}</a>`;
+  }
+  return html;
 };
+
+console.log(generateLinks(testLinks));
 
 // IGNORE THIS BELOW. It is for the tests.
 

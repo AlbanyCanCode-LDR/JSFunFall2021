@@ -4,3 +4,4 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let restaurants = ["restaurant1", "restaurant2", "restaurant3"];

@@ -10,7 +10,26 @@
 
 const isPalindrome = (string) => {
   // WRITE YOUR ANSWER HERE
+
+  console.log(string);
+
+  console.log(string.split(""));
+
+  console.log(string.split("").reverse());
+
+  console.log(string.split("").reverse().join(""));
+
+  console.log(string.split("").reverse().join(""));
+  if (string.split() == string.split("").reverse("").join("")) {
+    return true;
+  } else {
+    return false;
+  }
 };
+
+console.log(isPalindrome("car"));
+
+// does not work for non, can be refactored to work for even and odd
 
 // IGNORE THIS BELOW. It is for the tests.
 

@@ -8,3 +8,14 @@ let array2 = ["lion", "leopard", "saber tooth tiger"];
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const statuses = ["danger", "success"];
+
+const newStatuses = [...statuses, "warning"];
+
+console.log(newStatuses);
+// [ "danger", "success", "warning" ];
+
+const newArray = [...array1.concat(array2)];
+
+console.log(newArray);

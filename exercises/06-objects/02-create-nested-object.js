@@ -33,6 +33,15 @@ const createGraduateObject = (
   linkedInLink
 ) => {
   // WRITE YOUR ANSWER HERE
+  return {
+    name,
+    graduationYear,
+    skills,
+    links: {
+      github: githubLink,
+      linkedIn: linkedInLink,
+    },
+  };
 };
 
 // IGNORE THIS BELOW. It is for the tests.

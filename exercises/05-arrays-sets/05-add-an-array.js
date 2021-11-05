@@ -8,7 +8,16 @@
 
 const add = (numbers) => {
   // WRITE YOUR ANSWER HERE
+  //I used the reduce method and used an arrow function
+  let sum = numbers.reduce((a, b) => {
+    return a + b;
+  }, 0);
+
+  return sum;
 };
+
+let testArray = [1, 2, 55];
+console.log(add(testArray));
 
 // IGNORE THIS BELOW. It is for the tests.
 

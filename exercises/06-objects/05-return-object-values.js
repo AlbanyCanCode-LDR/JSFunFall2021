@@ -19,7 +19,13 @@
 
 const returnObjectValues = (blogPost) => {
   // WRITE YOUR ANSWER HERE
+  let title = blogPost.title;
+
+  const blogPostProperties = Object.values(blogPost);
+  return blogPostProperties;
 };
+
+console.log(returnObjectValues({ title: "Building a Form Validation API" }));
 
 // IGNORE THIS BELOW. It is for the tests.
 

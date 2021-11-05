@@ -15,3 +15,9 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+student["name"] = "Lawrence Reid";
+student["skills"].push("React");
+//Why does this work? as opposed to student[skills] = student[skills].push("Being a permanent student")
+
+console.log(student);

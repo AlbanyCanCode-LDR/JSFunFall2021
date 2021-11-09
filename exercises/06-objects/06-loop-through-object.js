@@ -26,7 +26,7 @@ const generateLinks = (links) => {
   // WRITE YOUR ANSWER HERE
   let html = "";
   for (const key in links) {
-    html = `${html} <a href="${links[key]}">${key}</a>`;
+    html += `${html} <a href="${links[key]}">${key}</a>, `;
   }
   return html;
 };
